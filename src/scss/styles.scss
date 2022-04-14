@@ -17,6 +17,9 @@
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
+$primary: #bf5700;
+$body-bg: #ededed;
+
 // Import Bootstrap styles:
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
@@ -24,3 +27,21 @@
 
 // Custom styles:
 
+// highlight lead
+.highlight {
+  .lead {
+    font-weight: lighter;    
+  }
+}
+
+//caption styles
+.caption {
+  font-weight: bold;
+  font-style:italic;
+}
+
+//footer styles
+footer {
+  text-align: center;
+  background-color: #FFFFFF;
+}

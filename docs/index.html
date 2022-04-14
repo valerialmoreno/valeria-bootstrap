@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="no-js" lang="en">
 <head>
-  <title>Bootstrap 5 Layout</title>
+  <title>Bootstrap 5 in-class assignment</title>
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="css/styles.css">
@@ -9,7 +9,93 @@
 
 <body>
   <!-- Content starts here -->
-  <p>Testing: 1, 2, 3, 4</p>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.html">My Site</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Pricing</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown link
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div id="header" class="bg-white my-4 p-5 rounded">
+      <h1>Header headline is here</h1>
+      <p class="lead">Danish fontina when the cheese comes out everybody's happy ricotta. Gouda red leicester parmesan cottage cheese everyone loves monterey jack who moved my cheese cut the cheese.</p>
+      <button type="button" class="btn btn-primary btn-lg">Large button</button>
+    </div>
+  </div>
+
+  <div class="container highlight">
+    <div class="row">
+      <div class="col-md-6 col-lg-8">
+        <h1>This is headline</h1>
+        <p class="lead">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Non minima dicta consequuntur placeat aspernatur rerum voluptate.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis architecto, autem facilis eum illum dicta reprehenderit fugit consequatur, ratione maiores, aut eius? Enim saepe velit modi, voluptatem culpa eos ad?</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iure iusto sequi nihil asperiores quaerat? Eveniet modi quaerat ad nobis repellendus sunt autem. Itaque exercitationem autem, quod sequi magnam rerum dolorem?</p>
+      </div>
+      <div class="col-md-6 col-lg-4">
+        <img src="img/gutenberg.jpg" class="img-fluid" alt="Bible">
+        <p class="caption">Lorem ipsum</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4 my-4">
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <p class="footer">Footer for this site. Powered by Intro Coding for Journalists 2022.</p>
+  </footer>
 
   <!-- Closing scripts here -->
   <script src="js/bootstrap.bundle.js"></script>
